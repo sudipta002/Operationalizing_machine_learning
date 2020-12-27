@@ -1,10 +1,19 @@
 
 ## Operationalizing Machine Learning
 
-*TODO:* Write an overview to your project.
+We create an Automated Machine Learning pipeline in Azure Machine Learning Studio. On successful execution of AutoML, we get to see the best model that provides the highest accuracy for the given dataset. However, the model has been deployed with authentication and application insights (logging)enabled which in turn provides an HTTP REST API endpoint. Swagger helps for API documentation, and Apache Benchmark helps in messuring performance of the deployed model. This project also extends to create, publish and consume a pipeline. 
+
+The data contains different attribute of banking clients. The classification goal is to predict if the client will subscribe a term deposit (variable y).
+
+Data Shape: 32,950 (row) x 20 (column)
+
+The data is available at this [link](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv).
 
 ## Architectural Diagram
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+
+The following diagram shows the architecture of the project. 
+
+![](images/Architecture_Diagram.png)
 
 ## Key Steps
 *TODO*: Write a short discription of the key steps. Remeber to include all the screenshots required to demonstrate key steps. 
