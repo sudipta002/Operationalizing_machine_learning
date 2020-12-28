@@ -46,7 +46,7 @@ By running logs.py, we enabled Application Insights which provides an URL.
 
 ![](images/Application_Insights_enabled.png)
 
-The following screenshots show the log as result of logs.py
+The following screenshots show the log as a result of runnig logs.py
 
 ![](images/Logs_1.png)
 
@@ -56,7 +56,7 @@ Swagger helps interact with the endpoint.
 
 ![](images/Swagger_localhost.png)
 
-With help of endpoint.py, we could able to consume the endpoint. 
+With help of endpoint.py, we are able to consume the endpoint. 
 
 ![](images/Endpoint_result.png)
 
@@ -67,8 +67,33 @@ Apache Benchmark shows result of performance metrics.
 
 ![](images/Apache_Benchmark_2.png)
 
+We have created a new pipeline using aml-pipelines-with-automated-machine-learning-step.ipynb. The following screenshot depicts the same. 
+
+![](images/Pipeline_creation.png)
+
+Once the pipeline is excuted, an endpoint is created. 
+
+![](images/Pipeline_endpoint.png)
+
+Pipeline overview shows HTTP REST API as the endpoint. 
+
+![](images/Published_pipeline_overview.png)
+
+The below designer graph highlights association of dataset i.e. Bank-marketing with AutoML module. 
+
+![](images/Bankmarketing_ds_automl.png)
+
+Jupyter widget shows completion of step runs. 
+
+![](images/Jupypter_widget.png)
+
+The scheduled run of the pipeline is shown in the picture. 
+
+![](images/Pipeline_scheduled_run.png)
+
+
 ## Screen Recording
 Screencast is available [here](https://youtu.be/dYZGjbWXmD8).
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+1. We need to think of a large dataset and to work on imbalanced dataset in order to get unbiased result. 
