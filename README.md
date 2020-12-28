@@ -68,7 +68,7 @@ Apache Benchmark shows result of performance metrics.
 ![](images/Apache_Benchmark_2.png)
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+Screencast is available [here](https://youtu.be/dYZGjbWXmD8).
 
 ## Standout Suggestions
 *TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
