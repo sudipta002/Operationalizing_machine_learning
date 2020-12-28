@@ -16,12 +16,19 @@ The following diagram shows the architecture of the project.
 ![](images/Architecture_Diagram.png)
 
 Step 1: The given dataset is registered in ML Studio. 
+
 Step 2: We have created a compute cluster with minimum node 1 and maximum node 7 of type Standard_DS12_v2 VM.
+
 Step 3: An Automated ML experiment is created to solve a classification problem. 
+
 Step 4: The experiment is executed.
+
 Step 5: Once the experiment is complete, it finds out the best model for deployment. 
+
 Step 6: Swagger helps with API documentation. 
+
 Step 7: The endpoint i.e. HTTP REST API is however consumed with a python script. 
+
 Step 8: Apache Benchmark performs a load testing in the deployed model. 
 
 ## Key Steps
